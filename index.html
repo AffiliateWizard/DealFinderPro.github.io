@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DealFinderPro</title>
+    <title>DealFinderPro - Stores & Coupon Codes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,6 +29,29 @@
             width: 100%;
             bottom: 0;
         }
+        .store-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .store-item {
+            background-color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .store-name {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .store-url {
+            font-size: 1.1em;
+            color: #4CAF50;
+        }
+        .coupon-codes {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
@@ -36,10 +59,22 @@
         <h1>Welcome to DealFinderPro</h1>
     </header>
     <main>
-        <h2>About Us</h2>
-        <p>Welcome to DealFinderPro, your number one source for finding the best deals online. We're dedicated to providing you the very best of deals, with an emphasis on quality, customer service, and reliability.</p>
-        <h2>Our Services</h2>
-        <p>We offer a wide range of services to help you find the best deals available. Stay tuned for more updates!</p>
+        <h2>List of Stores & Coupon Codes</h2>
+        <ul class="store-list">
+            <!-- Store 1 -->
+            <li class="store-item">
+                <div class="store-name">Store1: BugMD LLC</div>
+                <div class="store-url">Website URL: <a href="https://bugmd.com" target="_blank">bugmd.com</a></div>
+                <div class="coupon-codes">Coupon Codes: <strong>CSDEALS2024</strong>, <strong>CSDEALS2024</strong></div>
+            </li>
+
+            <!-- Store 2 -->
+            <li class="store-item">
+                <div class="store-name">Store2: Clarifion</div>
+                <div class="store-url">Website URL: <a href="https://clarifion.com" target="_blank">clarifion.com</a></div>
+                <div class="coupon-codes">Coupon Codes: <strong>CSDEALS2024</strong>, <strong>CSDEALS2024</strong></div>
+            </li>
+        </ul>
     </main>
     <footer>
         <p>&copy; 2024 DealFinderPro. All rights reserved.</p>
